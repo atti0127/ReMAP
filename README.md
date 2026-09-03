@@ -35,8 +35,7 @@ pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https
 pip install -r requirements.txt
 ```
 
-The CLIP backbone is downloaded automatically to `~/.cache/clip`. Set
-`ANOMALYCLIP_MODEL_CACHE` to choose another directory.
+The CLIP backbone is downloaded automatically to `~/.cache/clip`.
 
 ## Checkpoints
 
