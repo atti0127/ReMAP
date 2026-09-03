@@ -46,8 +46,7 @@ are not tracked by Git:
 bash download_checkpoints.sh
 ```
 
-The downloader retains only the two final checkpoints needed by ReMAP and
-verifies their SHA-256 checksums.
+The downloader retains only the two final checkpoints needed by ReMAP.
 
 ## Dataset evaluation
 
