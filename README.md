@@ -94,7 +94,7 @@ a heatmap, and an overlay. Add `--cpu` when CUDA is unavailable.
 The retained results use category-macro pixel AUROC and AUPRO under the
 official AnomalyCLIP evaluation protocol.
 
-| Domain | Pixel AUROC | AUPRO |
+| Domain | P-AUROC | P-AUPRO |
 |---|:---:|:---:|
 | Industrial | 96.553 | 85.521 |
 | Medical | 88.193 | 72.273 |
