@@ -103,13 +103,6 @@ The reported domain means exclude the SDD and TN3K robustness datasets.
 Per-dataset values and inclusion flags are available in
 [`results/remap/main/summary.md`](results/remap/main/summary.md).
 
-## Tests
-
-```bash
-python -m pip install -r requirements-dev.txt
-python -m pytest -q
-```
-
 ## License and citation
 
 The inherited AnomalyCLIP code is distributed under the MIT license in
