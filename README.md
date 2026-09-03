@@ -50,24 +50,9 @@ bash download_checkpoints.sh
 The downloader retains only the two final checkpoints needed by ReMAP and
 verifies their SHA-256 checksums.
 
-## Single-image inference
-
-```bash
-python -m remap.infer \
-  --image_path /path/to/image.png \
-  --checkpoint_path checkpoints/9_12_4_multiscale/epoch_15.pth \
-  --class_name bottle \
-  --domain industrial \
-  --output_dir outputs/example
-```
-
-For medical images, use `--domain medical` and an organ name such as `skin`,
-`colon`, `thyroid`, `brain`, or `chest`. The command saves the raw anomaly map,
-a heatmap, and an overlay. Add `--cpu` when CUDA is unavailable.
-
 ## Dataset evaluation
 
-Each dataset root must contain its images and an AnomalyCLIP-compatible
+Prepare datasets following [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP).Each dataset root must contain its images and an AnomalyCLIP-compatible
 `meta.json`. Metadata generators accept the dataset location explicitly:
 
 ```bash
@@ -88,6 +73,21 @@ The runner supports `mvtec`, `visa`, `btad`, `mpdd`, `sdd`, `dagm`, `dtd`,
 `isic`, `colondb`, `clinicdb`, `kvasir`, `endo`, and `tn3k`, together with the
 `industrial`, `medical`, and `all` groups. Intermediate arrays are stored under
 `cache/remap/`; final JSON files are stored under `results/remap/main/`.
+
+## Single-image inference
+
+```bash
+python -m remap.infer \
+  --image_path /path/to/image.png \
+  --checkpoint_path checkpoints/9_12_4_multiscale/epoch_15.pth \
+  --class_name bottle \
+  --domain industrial \
+  --output_dir outputs/example
+```
+
+For medical images, use `--domain medical` and an organ name such as `skin`,
+`colon`, `thyroid`, `brain`, or `chest`. The command saves the raw anomaly map,
+a heatmap, and an overlay. Add `--cpu` when CUDA is unavailable.
 
 ## Results
 
