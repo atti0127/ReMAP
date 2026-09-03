@@ -52,7 +52,7 @@ verifies their SHA-256 checksums.
 
 ## Dataset evaluation
 
-Prepare datasets following [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP).Each dataset root must contain its images and an AnomalyCLIP-compatible
+Prepare datasets following [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP). Each dataset root must contain its images and an AnomalyCLIP-compatible
 `meta.json`. Metadata generators accept the dataset location explicitly:
 
 ```bash
