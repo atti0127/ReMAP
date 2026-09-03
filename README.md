@@ -78,7 +78,7 @@ Run one dataset through the complete ReMAP pipeline with either a common data
 directory or a dataset-specific override:
 
 ```bash
-DATA_BASE=/path/to/datasets bash test_remap.sh mvtec
+DATA_BASE=/path/to/datasets bash test_remap.sh all
 
 # Equivalent
 MVTEC_ROOT=/path/to/mvtec bash test_remap.sh mvtec
