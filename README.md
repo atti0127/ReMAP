@@ -117,14 +117,3 @@ The inherited AnomalyCLIP code is distributed under the MIT license in
 Dataset licenses remain with their respective owners.
 
 ReMAP citation information will be added when the paper record is public.
-Please also cite AnomalyCLIP:
-
-```bibtex
-@inproceedings{zhou2024anomalyclip,
-  title={AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection},
-  author={Zhou, Qihang and Pang, Guansong and Tian, Yu and He, Shibo and Chen, Jiming},
-  booktitle={The Twelfth International Conference on Learning Representations},
-  year={2024}
-}
-```
-
