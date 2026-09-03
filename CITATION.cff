@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the ReMAP paper when its citation is available and the
+  AnomalyCLIP paper listed below.
+title: "ReMAP: Rank-Transported Re-observation via Multi-scale Affinity Propagation"
+type: software
+authors:
+  - name: "ReMAP authors"
+references:
+  - type: conference-paper
+    title: "AnomalyCLIP: Object-agnostic Prompt Learning for Zero-shot Anomaly Detection"
+    authors:
+      - family-names: Zhou
+        given-names: Qihang
+      - family-names: Pang
+        given-names: Guansong
+      - family-names: Tian
+        given-names: Yu
+      - family-names: He
+        given-names: Shibo
+      - family-names: Chen
+        given-names: Jiming
+    conference:
+      name: "The Twelfth International Conference on Learning Representations"
+    year: 2024
+

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "remap-anomaly-localization"
+version = "0.1.0"
+description = "Training-free zero-shot anomaly localization built on AnomalyCLIP"
+readme = "README.md"
+requires-python = ">=3.9,<3.11"
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+py-modules = ["dataset", "metrics", "prompt_ensemble", "utils"]
+
+[tool.setuptools.packages.find]
+include = ["AnomalyCLIP_lib*", "rate*", "rate_fovea*", "rate_prompt*", "remap*"]
+
+[tool.setuptools.package-data]
+AnomalyCLIP_lib = ["bpe_simple_vocab_16e6.txt.gz"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
