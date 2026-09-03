@@ -1,0 +1,155 @@
+{
+  "method": "ReMAP",
+  "backbone": "AnomalyCLIP",
+  "protocol": "official AnomalyCLIP category-macro Pixel AUROC/AUPRO",
+  "calibration": "none",
+  "target_statistics": "none",
+  "rows": [
+    {
+      "domain": "industrial",
+      "slug": "mvtec",
+      "dataset": "MVTec AD",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 92.78230683412438,
+        "pixel_aupro": 85.06966660980454
+      }
+    },
+    {
+      "domain": "industrial",
+      "slug": "visa",
+      "dataset": "VisA",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 96.1412384649698,
+        "pixel_aupro": 88.04036892715189
+      }
+    },
+    {
+      "domain": "industrial",
+      "slug": "btad",
+      "dataset": "BTAD",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 95.30524165076069,
+        "pixel_aupro": 71.99284912066793
+      }
+    },
+    {
+      "domain": "industrial",
+      "slug": "mpdd",
+      "dataset": "MPDD",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 97.22400658057241,
+        "pixel_aupro": 83.69098312109698
+      }
+    },
+    {
+      "domain": "industrial",
+      "slug": "sdd",
+      "dataset": "SDD",
+      "primary_mean": false,
+      "metrics": {
+        "pixel_auroc": 94.2464540439344,
+        "pixel_aupro": 71.74881062865727
+      }
+    },
+    {
+      "domain": "industrial",
+      "slug": "dagm",
+      "dataset": "DAGM",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 99.20484353768784,
+        "pixel_aupro": 93.92440361066095
+      }
+    },
+    {
+      "domain": "industrial",
+      "slug": "dtd",
+      "dataset": "DTD-Synthetic",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 98.65834231595862,
+        "pixel_aupro": 90.40643413639317
+      }
+    },
+    {
+      "domain": "medical",
+      "slug": "isic",
+      "dataset": "ISIC",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 90.75181655812628,
+        "pixel_aupro": 82.08766458197493
+      }
+    },
+    {
+      "domain": "medical",
+      "slug": "colondb",
+      "dataset": "CVC-ColonDB",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 86.76826310403521,
+        "pixel_aupro": 76.56403275240619
+      }
+    },
+    {
+      "domain": "medical",
+      "slug": "clinicdb",
+      "dataset": "CVC-ClinicDB",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 87.80643586748073,
+        "pixel_aupro": 73.9137271485608
+      }
+    },
+    {
+      "domain": "medical",
+      "slug": "kvasir",
+      "dataset": "Kvasir",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 85.82507726316513,
+        "pixel_aupro": 54.24823826225749
+      }
+    },
+    {
+      "domain": "medical",
+      "slug": "endo",
+      "dataset": "Endo",
+      "primary_mean": true,
+      "metrics": {
+        "pixel_auroc": 89.81329663369571,
+        "pixel_aupro": 74.54919350214934
+      }
+    },
+    {
+      "domain": "medical",
+      "slug": "tn3k",
+      "dataset": "TN3K",
+      "primary_mean": false,
+      "metrics": {
+        "pixel_auroc": 84.42762959323154,
+        "pixel_aupro": 55.54255233998705
+      }
+    }
+  ],
+  "domains": {
+    "industrial": {
+      "count": 6,
+      "mean": {
+        "pixel_auroc": 96.55266323067896,
+        "pixel_aupro": 85.5207842542959
+      }
+    },
+    "medical": {
+      "count": 5,
+      "mean": {
+        "pixel_auroc": 88.19297788530062,
+        "pixel_aupro": 72.27257124946975
+      }
+    }
+  }
+}

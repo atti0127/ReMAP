@@ -1,0 +1,33 @@
+{
+  "method": "remap",
+  "dataset": "btad",
+  "geometry_guidance": "rank-product of RATE and route_state prompt",
+  "calibration": "none",
+  "target_statistics": "none",
+  "full_seed_source": "reobservation",
+  "intermediate_transport": "none",
+  "final_transport": "exact_official_dense_histogram",
+  "dense_histogram_max_error": 0.0,
+  "variants": {
+    "remap": {
+      "categories": {
+        "01": {
+          "pixel_auroc": 0.9451386798413819,
+          "pixel_aupro": 0.6206828126771486
+        },
+        "02": {
+          "pixel_auroc": 0.9510403316687168,
+          "pixel_aupro": 0.6111204160555199
+        },
+        "03": {
+          "pixel_auroc": 0.9629782380127219,
+          "pixel_aupro": 0.9279822448873691
+        }
+      },
+      "mean": {
+        "pixel_auroc": 0.953052416507607,
+        "pixel_aupro": 0.7199284912066792
+      }
+    }
+  }
+}

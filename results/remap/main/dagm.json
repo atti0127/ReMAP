@@ -1,0 +1,61 @@
+{
+  "method": "remap",
+  "dataset": "dagm",
+  "geometry_guidance": "rank-product of RATE and route_state prompt",
+  "calibration": "none",
+  "target_statistics": "none",
+  "full_seed_source": "reobservation",
+  "intermediate_transport": "none",
+  "final_transport": "exact_official_dense_histogram",
+  "dense_histogram_max_error": 0.0,
+  "variants": {
+    "remap": {
+      "categories": {
+        "Class1": {
+          "pixel_auroc": 0.9796702872143457,
+          "pixel_aupro": 0.7403203739044631
+        },
+        "Class10": {
+          "pixel_auroc": 0.9983138384282976,
+          "pixel_aupro": 0.9523339671053775
+        },
+        "Class2": {
+          "pixel_auroc": 0.9985842360947145,
+          "pixel_aupro": 0.9864142892544198
+        },
+        "Class3": {
+          "pixel_auroc": 0.9956384134016004,
+          "pixel_aupro": 0.9911824684773921
+        },
+        "Class4": {
+          "pixel_auroc": 0.9870201744212537,
+          "pixel_aupro": 0.8939221061386282
+        },
+        "Class5": {
+          "pixel_auroc": 0.9955134730009827,
+          "pixel_aupro": 0.9800954857815788
+        },
+        "Class6": {
+          "pixel_auroc": 0.9934192085153339,
+          "pixel_aupro": 0.9610768765493019
+        },
+        "Class7": {
+          "pixel_auroc": 0.9802579903152766,
+          "pixel_aupro": 0.9469609288890732
+        },
+        "Class8": {
+          "pixel_auroc": 0.9985764427407811,
+          "pixel_aupro": 0.9733678998534312
+        },
+        "Class9": {
+          "pixel_auroc": 0.9934902896361972,
+          "pixel_aupro": 0.9667659651124303
+        }
+      },
+      "mean": {
+        "pixel_auroc": 0.9920484353768784,
+        "pixel_aupro": 0.9392440361066094
+      }
+    }
+  }
+}

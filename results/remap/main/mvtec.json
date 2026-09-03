@@ -1,0 +1,81 @@
+{
+  "method": "remap",
+  "dataset": "mvtec",
+  "geometry_guidance": "rank-product of RATE and route_state prompt",
+  "calibration": "none",
+  "target_statistics": "none",
+  "full_seed_source": "reobservation",
+  "intermediate_transport": "none",
+  "final_transport": "exact_official_dense_histogram",
+  "dense_histogram_max_error": 0.0,
+  "variants": {
+    "remap": {
+      "categories": {
+        "bottle": {
+          "pixel_auroc": 0.9240490951042601,
+          "pixel_aupro": 0.8463294552920728
+        },
+        "cable": {
+          "pixel_auroc": 0.837823104707082,
+          "pixel_aupro": 0.6997630268516843
+        },
+        "capsule": {
+          "pixel_auroc": 0.9668234368549203,
+          "pixel_aupro": 0.910302643000629
+        },
+        "carpet": {
+          "pixel_auroc": 0.9919707617655361,
+          "pixel_aupro": 0.9253134498656498
+        },
+        "grid": {
+          "pixel_auroc": 0.9798394204076613,
+          "pixel_aupro": 0.7800602449426198
+        },
+        "hazelnut": {
+          "pixel_auroc": 0.9725529947481812,
+          "pixel_aupro": 0.9054153574690041
+        },
+        "leather": {
+          "pixel_auroc": 0.9887096504560157,
+          "pixel_aupro": 0.939796889614923
+        },
+        "metal_nut": {
+          "pixel_auroc": 0.7543649763410692,
+          "pixel_aupro": 0.7614510627548741
+        },
+        "pill": {
+          "pixel_auroc": 0.9304235297827632,
+          "pixel_aupro": 0.9288277032378147
+        },
+        "screw": {
+          "pixel_auroc": 0.9846028222300425,
+          "pixel_aupro": 0.915981699629188
+        },
+        "tile": {
+          "pixel_auroc": 0.9649294933599484,
+          "pixel_aupro": 0.9021900839539103
+        },
+        "toothbrush": {
+          "pixel_auroc": 0.9278136899673531,
+          "pixel_aupro": 0.9105254293084574
+        },
+        "transistor": {
+          "pixel_auroc": 0.7632826098137607,
+          "pixel_aupro": 0.6327348183166868
+        },
+        "wood": {
+          "pixel_auroc": 0.965379831417509,
+          "pixel_aupro": 0.9086632524330099
+        },
+        "zipper": {
+          "pixel_auroc": 0.9647806081625544,
+          "pixel_aupro": 0.7930948748001577
+        }
+      },
+      "mean": {
+        "pixel_auroc": 0.9278230683412438,
+        "pixel_aupro": 0.8506966660980454
+      }
+    }
+  }
+}

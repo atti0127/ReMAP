@@ -1,0 +1,25 @@
+{
+  "method": "remap",
+  "dataset": "tn3k",
+  "geometry_guidance": "rank-product of RATE and route_state prompt",
+  "calibration": "none",
+  "target_statistics": "none",
+  "full_seed_source": "reobservation",
+  "intermediate_transport": "none",
+  "final_transport": "exact_official_dense_histogram",
+  "dense_histogram_max_error": 0.0,
+  "variants": {
+    "remap": {
+      "categories": {
+        "thyroid": {
+          "pixel_auroc": 0.8442762959323155,
+          "pixel_aupro": 0.5554255233998705
+        }
+      },
+      "mean": {
+        "pixel_auroc": 0.8442762959323155,
+        "pixel_aupro": 0.5554255233998705
+      }
+    }
+  }
+}

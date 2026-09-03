@@ -1,0 +1,69 @@
+{
+  "method": "remap",
+  "dataset": "dtd-synthetic",
+  "geometry_guidance": "rank-product of RATE and route_state prompt",
+  "calibration": "none",
+  "target_statistics": "none",
+  "full_seed_source": "reobservation",
+  "intermediate_transport": "none",
+  "final_transport": "exact_official_dense_histogram",
+  "dense_histogram_max_error": 0.0,
+  "variants": {
+    "remap": {
+      "categories": {
+        "Blotchy_099": {
+          "pixel_auroc": 0.9906330749804706,
+          "pixel_aupro": 0.9589509168604398
+        },
+        "Fibrous_183": {
+          "pixel_auroc": 0.9932372863195466,
+          "pixel_aupro": 0.9727685665836775
+        },
+        "Marbled_078": {
+          "pixel_auroc": 0.990838235174839,
+          "pixel_aupro": 0.9557446809214618
+        },
+        "Matted_069": {
+          "pixel_auroc": 0.9930715110092332,
+          "pixel_aupro": 0.827623920868028
+        },
+        "Mesh_114": {
+          "pixel_auroc": 0.9762784935272351,
+          "pixel_aupro": 0.7533829532782939
+        },
+        "Perforated_037": {
+          "pixel_auroc": 0.9848631413848615,
+          "pixel_aupro": 0.7919574538427204
+        },
+        "Stratified_154": {
+          "pixel_auroc": 0.9954465743883594,
+          "pixel_aupro": 0.9361703452133388
+        },
+        "Woven_001": {
+          "pixel_auroc": 0.9974193017014277,
+          "pixel_aupro": 0.9651105907329655
+        },
+        "Woven_068": {
+          "pixel_auroc": 0.985825236474491,
+          "pixel_aupro": 0.8994639382358657
+        },
+        "Woven_104": {
+          "pixel_auroc": 0.9856087398990487,
+          "pixel_aupro": 0.9425114527124803
+        },
+        "Woven_125": {
+          "pixel_auroc": 0.992637113818348,
+          "pixel_aupro": 0.9370874825248866
+        },
+        "Woven_127": {
+          "pixel_auroc": 0.9531423692371711,
+          "pixel_aupro": 0.9079997945930247
+        }
+      },
+      "mean": {
+        "pixel_auroc": 0.9865834231595861,
+        "pixel_aupro": 0.9040643413639318
+      }
+    }
+  }
+}

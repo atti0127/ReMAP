@@ -1,0 +1,45 @@
+{
+  "method": "remap",
+  "dataset": "mpdd",
+  "geometry_guidance": "rank-product of RATE and route_state prompt",
+  "calibration": "none",
+  "target_statistics": "none",
+  "full_seed_source": "reobservation",
+  "intermediate_transport": "none",
+  "final_transport": "exact_official_dense_histogram",
+  "dense_histogram_max_error": 0.0,
+  "variants": {
+    "remap": {
+      "categories": {
+        "bracket_black": {
+          "pixel_auroc": 0.9606884101472452,
+          "pixel_aupro": 0.7911047947935589
+        },
+        "bracket_brown": {
+          "pixel_auroc": 0.9593132906355949,
+          "pixel_aupro": 0.6049808369559929
+        },
+        "bracket_white": {
+          "pixel_auroc": 0.9966223363635455,
+          "pixel_aupro": 0.9663660596549863
+        },
+        "connector": {
+          "pixel_auroc": 0.9678649406213213,
+          "pixel_aupro": 0.8508830751670301
+        },
+        "metal_plate": {
+          "pixel_auroc": 0.9561823013407832,
+          "pixel_aupro": 0.881099851241541
+        },
+        "tubes": {
+          "pixel_auroc": 0.9927691157258537,
+          "pixel_aupro": 0.9270243694527094
+        }
+      },
+      "mean": {
+        "pixel_auroc": 0.9722400658057241,
+        "pixel_aupro": 0.8369098312109697
+      }
+    }
+  }
+}
