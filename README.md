@@ -59,7 +59,7 @@ Prepare datasets following [AnomalyCLIP](https://github.com/zqhang/AnomalyCLIP).
 python generate_dataset_json/mvtec.py --root /path/to/mvtec
 ```
 
-Run one dataset through the complete ReMAP pipeline with either a common data
+Run all datasets through the complete ReMAP pipeline with either a common data
 directory or a dataset-specific override:
 
 ```bash
