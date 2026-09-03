@@ -1,4 +1,4 @@
-# ReMAP: Rank-Transported Re-observation via Multi-scale Affinity
+# ReMAP: Rank-Guided Re-observation via Multi-scale Affinity Propagation for Zero-Shot Anomaly Localization
 
 **ReMAP** is a training-free method for zero-shot anomaly localization.
 It keeps AnomalyCLIP frozen and improves its anomaly map through Rank
