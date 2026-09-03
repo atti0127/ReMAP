@@ -27,12 +27,12 @@ of the full image.
 
 ## Installation
 
-The released configuration uses Python 3.9, PyTorch 2.0.0, and torchvision
-0.15.1. A CUDA-capable GPU is recommended.
+The released configuration uses Python 3.10 and CUDA 11.8.
 
 ```bash
-conda create -n remap python=3.9 -y
+conda create -n remap python=3.10
 conda activate remap
+pip install torch==2.0.0 torchvision==0.15.1 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118
 python -m pip install -r requirements.txt
 ```
 
